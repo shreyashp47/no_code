@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.shop.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.shop.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.shop.app.modules.addaddress.ui.AddAddressActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.search.ui.SearchActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.registerform.ui.RegisterFormActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.notification.ui.NotificationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.searchresult.ui.SearchResultActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.offerscreen.ui.OfferScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.appnavigation.ui.AppNavigationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.creditcardanddebit.ui.CreditCardAndDebitActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.productdetail.ui.ProductDetailActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.reviewproduct.ui.ReviewProductActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.choosecreditordebitcard.ui.ChooseCreditOrDebitCardActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.explore.ui.ExploreActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.notificationoffer.ui.NotificationOfferActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.shortby.ui.ShortByActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.orderdetails.ui.OrderDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.address.ui.AddressActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.addcard.ui.AddCardActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.changepassword.ui.ChangePasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.profile.ui.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.searchresult2.ui.SearchResult2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.lailyfafebrinacard.ui.LailyfaFebrinaCardActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.successscreen.ui.SuccessScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.shipto.ui.ShipToActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.favoriteproduct.ui.FavoriteProductActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.listcategory.ui.ListCategoryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.dashboard.ui.DashboardActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.notificationfeed.ui.NotificationFeedActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.filter.ui.FilterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.offerscreen2.ui.OfferScreen2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.cart.ui.CartActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.splash.ui.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shop.app.modules.notification2.ui.Notification2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.writereviewfill.ui.WriteReviewFillActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.order.ui.OrderActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shop.app.modules.account.ui.AccountActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>
